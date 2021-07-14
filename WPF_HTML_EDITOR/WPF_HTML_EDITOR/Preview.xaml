@@ -1,0 +1,8 @@
+﻿<Window x:Class="WPF_HTML_EDITOR.Preview"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Preview" Height="482" Width="779">
+    <Grid>
+        <WebBrowser HorizontalAlignment="Left" Margin="12,44,0,0" Name="webBrowser1" VerticalAlignment="Top" DataContext="{Binding}" />
+    </Grid>
+</Window>
